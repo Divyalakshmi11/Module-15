@@ -22,11 +22,23 @@ To write a Python program to build a binary search tree using a built-in functio
 ## PROGRAM:
 
 ```
-ENTER YOUR CODE
+from binarytree import Node
+root=Node(1)
+root.left=Node(2)
+root.right=Node(3)
+root.left.left=Node(5)
+root.left.right=Node(6)
+print("Binary tree: ")
+for i in (root.values):
+    print(i,"-->",end="")
+print("\nLeft Subtree: ")
+for i in (root[1].values):
+    print(i,"-->",end="")
 ```
 
 ## OUTPUT
-```
-```
+<img width="1182" height="260" alt="image" src="https://github.com/user-attachments/assets/fc0d8d87-08a7-453f-bb2c-5970283b649e" />
+
 
 ## RESULT
+Therefore, the output is the example to write a Python program to build a binary search tree using a built-in function.
